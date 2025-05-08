@@ -60,7 +60,7 @@ def cong_viec():
     chuyen_muc = 'https://vnexpress.net/kinh-doanh'  
     lay_du_lieu_vnexpress(chuyen_muc, so_trang=5)
 
-schedule.every().day.at("14:16").do(cong_viec)
+schedule.every().day.at("06:00").do(cong_viec)
 
 if __name__ == "__main__":
     print("Đang chạy lịch thu thập dữ liệu...")
